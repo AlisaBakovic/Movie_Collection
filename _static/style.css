@@ -1,0 +1,61 @@
+
+body {
+    background: #F5F5F0;
+    color: black;
+    font-family: Monaco, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+
+.list-movies-title {
+    padding: 10px 0;
+    background: #009B50;
+    color: white;
+    text-align: center;
+    font-size: 16pt;
+}
+
+
+.movie-grid {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* razmak između filmova */
+}
+
+
+.movie-grid li {
+    width: 140px;
+    text-align: center;
+}
+
+
+.movie-poster {
+    width: 128px;
+    height: 193px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    margin-bottom: 10px;
+}
+
+
+.movie-title {
+    font-size: 0.9em;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+
+.movie-year {
+    font-size: 0.8em;
+    color: #999;
+}
+
+
+.movie-rating {
+    font-size: 0.8em;
+    margin-top: 5px;
+}

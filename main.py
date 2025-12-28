@@ -1,6 +1,6 @@
 import random
-import movie_storage_sql as storage
-from movie_collection.omdb_api import fetch_movie_from_api
+from movie_collection.storage import movie_storage_sql as storage
+from movie_collection.storage.omdb_api import fetch_movie_from_api
 
 
 def program_exit():
